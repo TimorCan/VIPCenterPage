@@ -1,0 +1,168 @@
+/*通用设置*/
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+body
+{
+    /*position:relative;*/
+    /*z-index:0;*/
+}
+#nav
+{
+    height: 128px;
+    /*background-color: antiquewhite;*/
+}
+
+#statusBar
+{
+    height: 40px;
+}
+#navgationBar
+{
+    height: 88px;
+    /*background-color: aqua;*/
+    padding-bottom: 0px;
+    /*margin-top: 40px;*/
+    text-align: center;
+    line-height: 88px;
+}
+
+#navgationBar img{
+
+  margin-left: 25px;
+    margin-top: 30px;
+    float: left;
+    width: 16px;
+    height: 28px;
+
+}
+
+#navgationBar span {
+    font-size: 32px;
+    color: #323232;
+    text-align: center;
+    font-family: "Apple LiGothic Medium";
+}
+
+#topContent
+{
+    width: 100%;
+    height: 420px;
+    background-color: #4AB1B7;
+
+}
+
+.head-image
+{
+    color: white;
+    text-align: center;
+}
+
+.head-image img
+{
+
+    margin-top: 20px;
+}
+.head-p1{
+    color: white;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    margin-top: 18px;
+}
+
+.head-p2{
+    color: white;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    margin-top: 10px;
+}
+
+.line
+{
+    width: 100%;
+    height: 3px;
+    margin-top: 125px;
+    background-color: #eff1e9;
+    /*z-index:10;*/
+}
+
+.yellow-line
+{
+    width: 70%;
+    background-color: #f9c804;
+    height: 3px;
+}
+
+
+.paizi{
+    margin-top: -2em;
+    /*z-index:20;*/
+}
+
+.paizi li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 15%;
+    background-color: #4AB1B7;
+}
+
+
+.paiziTitle
+{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fbc903;
+    font-family: "SimHei";
+}
+
+.zuanshiTitle
+{
+    color: #eff1e9;
+}
+
+#bottomContent
+{
+    margin-top: 20px;
+}
+
+.bottomtitle
+{
+    margin-left: 25px;
+    font-size: 1.5em;
+    color: #323232;
+    font-family: "SimHei";
+}
+#bottomContent ul
+{
+    margin-top: 26px;
+}
+#bottomContent ul li
+{
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+#bottomContent ul li p
+{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #88abda;
+    font-family: "Microsoft YaHei";
+}
