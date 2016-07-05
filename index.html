@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=640,user-scalable=no, target-densitydpi=device-dpi">
     <title>会员中心</title>
     <link href="css/index.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
 </head>
 <body>
        <div id="nav">
@@ -30,22 +31,22 @@
 
           <ul class="paizi">
               <li>
-                  <img src="image/tong.png">
+                  <img id="tong" src="image/tong.png">
                   <p class="paiziTitle tongTitle">5000</p>
               </li>
 
               <li>
-                  <img src="image/yin.png">
+                  <img id="yin" src="image/yin.png">
                   <p class="paiziTitle yinTitle">2000</p>
               </li>
 
               <li>
-                  <img src="image/jin.png">
+                  <img id="jin" src="image/jin.png">
                   <p class="paiziTitle jinTitle">5000</p>
               </li>
 
               <li>
-                  <img src="image/zuanshi.png">
+                  <img id="zhuanshi" src="image/zuanshi.png">
                   <p class="paiziTitle zuanshiTitle">10000</p>
               </li>
 
@@ -74,5 +75,28 @@
                </li>
            </ul>
        </div>
+
+ <script>
+     $(document).ready(function(){
+
+         $("img#tong").click(function(){
+          $("div.yellow-line").css("width","18%")
+         })
+
+         $("img#yin").click(function(){
+             $("div.yellow-line").css("width","36%")
+         })
+
+
+         $("img#jin").click(function(){
+             $("div.yellow-line").css("width","56%")
+         })
+
+         $("img#zhuanshi").click(function(){
+             $("div.yellow-line").css("width","76%")
+         })
+     })
+
+ </script>
 </body>
 </html>
